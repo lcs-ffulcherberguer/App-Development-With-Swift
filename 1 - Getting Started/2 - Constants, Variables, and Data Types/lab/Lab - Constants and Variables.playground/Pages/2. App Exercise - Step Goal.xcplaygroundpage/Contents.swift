@@ -12,4 +12,5 @@ let goalSteps = 100000
  */
 print ("Your step goal for the day")
 print (goalSteps)
+print("hi")
 //: [Previous](@previous)  |  page 2 of 10  |  [Next: Exercise - Variables](@next)
