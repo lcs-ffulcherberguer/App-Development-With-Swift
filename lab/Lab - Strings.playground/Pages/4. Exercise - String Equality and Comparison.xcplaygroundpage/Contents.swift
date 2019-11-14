@@ -3,6 +3,8 @@
  
  Create two constants, `nameInCaps` and `name`. Assign `nameInCaps` your name as a string literal with proper capitalization. Assign `name` your name as a string literal in all lowercase. Write an if-else statement that checks to see if `nameInCaps` and `name` are the same. If they are, print "The two strings are equal", otherwise print "The two strings are not equal."
  */
+let nameInCaps = "Fernanda Zancheta"
+let name = "fernanda zancheta"
 
 
 /*:
@@ -14,12 +16,18 @@
  
  - "<INSERT LOWERCASED VERSION OF `nameInCaps` HERE> and <INSERT LOWERCASED VERSION OF `name` HERE> are not the same."
  */
-
+if nameInCaps.lowercased() == name.;owercased() {
+    
+}
 
 /*:
  Imagine you are looking through a list of names to find any that end in "Jr." Write an if statement below that will check if `junior` has the suffix "Jr.". If it does, print "We found a second generation name!"
  */
 let junior = "Cal Ripken Jr."
+
+if junior.hasSuffix("Jr.") {
+    print("We found a second generation name!")
+}
 
 
 /*:
@@ -29,10 +37,14 @@ import Foundation
 let textToSearchThrough = "To be, or not to be--that is the question"
 let textToSearchFor = "to be, or not to be"
 
+if textToSearchThrough.lowercased().contains(textToSearchFor) {
+    print("I foun it!")
+}
 
 /*:
  Print to the console the number of characters in your name by using the `count` property on `name`.
  */
-
+print(name.count)
+print("My name has \(name.count) characters.")
 
 //: [Previous](@previous)  |  page 4 of 5  |  [Next: App Exercise - Password Entry and User Search](@next)

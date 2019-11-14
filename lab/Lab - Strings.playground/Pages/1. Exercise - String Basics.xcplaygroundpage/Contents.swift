@@ -20,12 +20,23 @@ let myString = string1 + string2 + string3 // Fernanda Zancheta Fulcherberguer
  */
 let favoriteQuote = "Only dead fish go with the flow."
 print("My favorite quote is \"\(favoriteQuote)\"") // My favorite quote is "Only dead fish go with the flow"
+let favoriteQuotes = "My favorite quote is \"Only dead fish go with the flow.\""
 /*:
  Write an if-else statement that prints "There's nothing here" if `emptyString` is empty, and "It's not as empty as I thought" otherwise.
  */
 let emptyString = ""
+
 if emptyString.isEmpty {
     print("There's nothing here")
+} else {
+    print("It's not as empty as I thought.")
 }
+
+
+let emptyString1 = ""
+
+if emptyString1 == "" {
+    print("There's nothing here!")
+} 
 
 //: page 1 of 5  |  [Next: Exercise - Concatenation and Interpolation](@next)
